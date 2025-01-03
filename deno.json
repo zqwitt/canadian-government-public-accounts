@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "dev": "deno run dev:2023 && deno run dev:2022 && deno run dev:2021 && deno run dev:2020 && deno run dev:2019 && deno run dev:2018 && deno run dev:2017 && deno run dev:2016 && deno run dev:2015 && deno run dev:2014",
+    "dev:2023": "deno run --allow-read --allow-write ./on/2023/main.ts",
+    "dev:2022": "deno run --allow-read --allow-write ./on/2022/main.ts",
+    "dev:2021": "deno run --allow-read --allow-write ./on/2021/main.ts",
+    "dev:2020": "deno run --allow-read --allow-write ./on/2020/main.ts",
+    "dev:2019": "deno run --allow-read --allow-write ./on/2019/main.ts",
+    "dev:2018": "deno run --allow-read --allow-write ./on/2018/main.ts",
+    "dev:2017": "deno run --allow-read --allow-write ./on/2017/main.ts",
+    "dev:2016": "deno run --allow-read --allow-write ./on/2016/main.ts",
+    "dev:2015": "deno run --allow-read --allow-write ./on/2015/main.ts",
+    "dev:2014": "deno run --allow-read --allow-write ./on/2014/main.ts",
+    "start": "deno run --allow-read ./2024/ontario.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "html-table-to-json": "npm:html-table-to-json@^1.0.0"
+  },
+  "fmt": {
+    "lineWidth": 180
+  }
+}
